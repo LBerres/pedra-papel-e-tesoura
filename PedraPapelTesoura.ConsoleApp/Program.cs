@@ -22,6 +22,8 @@ class Program
             {
                 Console.WriteLine("-----------------------------");
                 Console.WriteLine("Obrigado por Jogar!");
+                Console.WriteLine("Aperte ENTER para Sair...");
+                Console.ReadLine();
                 break;
             }
         }
