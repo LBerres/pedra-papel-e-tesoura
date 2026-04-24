@@ -20,6 +20,7 @@ class Program
 
             if (resposta != "S")
             {
+                Console.WriteLine("-----------------------------");
                 Console.WriteLine("Obrigado por Jogar!");
                 break;
             }
