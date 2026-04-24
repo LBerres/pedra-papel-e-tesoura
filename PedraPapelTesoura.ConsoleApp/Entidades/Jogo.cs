@@ -50,6 +50,7 @@ public static class Jogo
         else if (escolhaJogador == ESCOLHA_PAPEL)
         {
             Console.Clear();
+            Console.WriteLine("-----------------------------");
             Console.Write("Papel x ");
             if (escolhaComputador == ESCOLHA_PEDRA)
             {
@@ -89,6 +90,7 @@ public static class Jogo
         {
             Console.Clear();
             Console.Write("Tesoura x ");
+            Console.WriteLine("-----------------------------");
             if (escolhaComputador == ESCOLHA_PEDRA)
             {
                 Console.WriteLine("Pedra");
