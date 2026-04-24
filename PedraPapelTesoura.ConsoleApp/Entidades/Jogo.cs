@@ -35,6 +35,8 @@ public static class Jogo
                 Console.WriteLine("Pedra");
                 Console.WriteLine("-----------------------------");
                 Console.WriteLine();
+                Console.WriteLine("Quebraram… Mas o Orgulho Ficou Intacto!");
+                Console.WriteLine();
                 Console.WriteLine("Empate!");
             }
         }
@@ -64,6 +66,8 @@ public static class Jogo
                 Console.WriteLine("Papel");
                 Console.WriteLine("-----------------------------");
                 Console.WriteLine();
+                Console.WriteLine("Assinaram um Acordo de Paz!");
+                Console.WriteLine();
                 Console.WriteLine("Empate!");
             }
         }
@@ -92,6 +96,8 @@ public static class Jogo
             {
                 Console.WriteLine("Tesoura");
                 Console.WriteLine("-----------------------------");
+                Console.WriteLine();
+                Console.WriteLine("Corte Cancelado por Falta de Corte!");
                 Console.WriteLine();
                 Console.WriteLine("Empate!");
             }
