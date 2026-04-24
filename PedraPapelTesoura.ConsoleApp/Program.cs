@@ -3,10 +3,9 @@ namespace PedraPapelTesoura.ConsoleApp;
 
 class Program
 {
-    // Ponto de Entrada
     static void Main(string[] args)
     {
-        while (true) // Loop Infinito
+        while (true)
         {
             int escolhaJogador = Jogador.ObterEscolhaJogador();
 
@@ -14,18 +13,7 @@ class Program
 
             Jogo.CompararEscolhas(escolhaJogador, escolhaComputador);
 
-            Console.WriteLine("-----------------------------");
-            Console.Write("Deseja Jogar Novamente? (S/N): ");
-            string? resposta = Console.ReadLine()?.ToUpper();
-
-            if (resposta != "S")
-            {
-                Console.WriteLine("-----------------------------");
-                Console.WriteLine("Obrigado por Jogar!");
-                Console.WriteLine("Aperte ENTER para Sair...");
-                Console.ReadLine();
-                break;
-            }
+            MesagemFinal.MensagemFinal();
         }
     }
 }
