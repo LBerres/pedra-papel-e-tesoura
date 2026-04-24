@@ -89,8 +89,8 @@ public static class Jogo
         else if (escolhaJogador == ESCOLHA_TESOURA)
         {
             Console.Clear();
-            Console.Write("Tesoura x ");
             Console.WriteLine("-----------------------------");
+            Console.Write("Tesoura x ");
             if (escolhaComputador == ESCOLHA_PEDRA)
             {
                 Console.WriteLine("Pedra");
