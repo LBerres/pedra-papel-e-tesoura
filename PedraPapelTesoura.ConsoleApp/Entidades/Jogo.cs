@@ -10,6 +10,7 @@ public static class Jogo
 
         if (escolhaJogador == ESCOLHA_PEDRA)
         {
+            Console.Clear();
             Console.WriteLine("-----------------------------");
             Console.Write("Pedra x ");
             if (escolhaComputador == ESCOLHA_PAPEL)
@@ -17,18 +18,22 @@ public static class Jogo
                 Console.WriteLine("Papel");
                 Console.WriteLine("-----------------------------");
                 Console.WriteLine();
-                Console.WriteLine("Papel Envolve Pedra!");
+                Console.WriteLine("Foi Embrulhada pra Viagem!");
+                Console.WriteLine();
                 Console.WriteLine();
                 Console.WriteLine("Computador Venceu!");
+                Console.WriteLine();
             }
             else if (escolhaComputador == ESCOLHA_TESOURA)
             {
                 Console.WriteLine("Tesoura");
                 Console.WriteLine("-----------------------------");
                 Console.WriteLine();
-                Console.WriteLine("Pedra Quebra Tesoura!");
+                Console.WriteLine("Amassou Sem Dó!");
+                Console.WriteLine();
                 Console.WriteLine();
                 Console.WriteLine("Você Venceu!");
+                Console.WriteLine();
             }
             else // Empate
             {
@@ -37,7 +42,9 @@ public static class Jogo
                 Console.WriteLine();
                 Console.WriteLine("Quebraram… Mas o Orgulho Ficou Intacto!");
                 Console.WriteLine();
+                Console.WriteLine();
                 Console.WriteLine("Empate!");
+                Console.WriteLine();
             }
         }
         else if (escolhaJogador == ESCOLHA_PAPEL)
@@ -48,18 +55,22 @@ public static class Jogo
                 Console.WriteLine("Pedra");
                 Console.WriteLine("-----------------------------");
                 Console.WriteLine();
-                Console.WriteLine("Papel Envolve Pedra!");
+                Console.WriteLine("Dominou na Estratégia!");
+                Console.WriteLine();
                 Console.WriteLine();
                 Console.WriteLine("Você Venceu!");
+                Console.WriteLine();
             }
             else if (escolhaComputador == ESCOLHA_TESOURA)
             {
                 Console.WriteLine("Tesoura");
                 Console.WriteLine("-----------------------------");
                 Console.WriteLine();
-                Console.WriteLine("Tesoura Corta Papel!");
+                Console.WriteLine("Cortado em 4K!");
+                Console.WriteLine();
                 Console.WriteLine();
                 Console.WriteLine("Computador Venceu!");
+                Console.WriteLine();
             }
             else // Empate
             {
@@ -68,7 +79,9 @@ public static class Jogo
                 Console.WriteLine();
                 Console.WriteLine("Assinaram um Acordo de Paz!");
                 Console.WriteLine();
+                Console.WriteLine();
                 Console.WriteLine("Empate!");
+                Console.WriteLine();
             }
         }
         else if (escolhaJogador == ESCOLHA_TESOURA)
@@ -79,27 +92,33 @@ public static class Jogo
                 Console.WriteLine("Pedra");
                 Console.WriteLine("-----------------------------");
                 Console.WriteLine();
-                Console.WriteLine("Pedra Quebra Tesoura!");
+                Console.WriteLine("Cancelada Pela Realidade!");
+                Console.WriteLine();
                 Console.WriteLine();
                 Console.WriteLine("Computador Venceu!");
+                Console.WriteLine();
             }
             else if (escolhaComputador == ESCOLHA_PAPEL)
             {
                 Console.WriteLine("Papel");
                 Console.WriteLine("-----------------------------");
                 Console.WriteLine();
-                Console.WriteLine("Tesoura Corta Papel!");
+                Console.WriteLine("Deixou em Pedacinhos!");
+                Console.WriteLine();
                 Console.WriteLine();
                 Console.WriteLine("Você Venceu!");
+                Console.WriteLine();
             }
             else // Empate
             {
                 Console.WriteLine("Tesoura");
                 Console.WriteLine("-----------------------------");
                 Console.WriteLine();
-                Console.WriteLine("Corte Cancelado por Falta de Corte!");
+                Console.WriteLine("Ficaram se Encarando Igual Duelo no Velho Oeste!");
+                Console.WriteLine();
                 Console.WriteLine();
                 Console.WriteLine("Empate!");
+                Console.WriteLine();
             }
         }
     }
